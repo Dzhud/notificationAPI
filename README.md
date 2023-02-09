@@ -13,11 +13,11 @@ All items have some of the following properties, with required properties in bol
 |--------------|-------------|
 | uid          |  Unique identifier associated with the notification           |
 | user_id      |  User identifier field (optional but recommended)       ||
-| **username**         |  Recepient of the notification. Has to be the correct value           |
-| **product_id**      |  Identifier field (compulsory field)       ||
-| **product_name**         |   Name of product         |
-| **title**         |   Title of the notification message|
-| **message** | Body of notifcation message  |
+| **username**         |  **Recepient of the notification. Has to be the correct value**           |
+| **product_id**      |  **Identifier field (compulsory field)**       ||
+| **product_name**         |   **Name of product**         |
+| **title**         |   **Title of the notification message**|
+| **message** | **Body of notifcation message**  |
 | seen         | Default value is `false`. Value changes to `true` (via `PUT` request to the endpoint) if message is viewed in the extension             |
 | created_at         | Date the notification was created   |
 

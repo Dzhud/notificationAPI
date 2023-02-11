@@ -23,7 +23,7 @@ All items have some of the following properties, with required properties in bol
 
 ## Example
 Posting the below snippet which contain are mandatory  fields in a `POST` request
-```
+```json
 {
   "product_id": "99",
   "username": "Dobchinsky",  
@@ -33,7 +33,7 @@ Posting the below snippet which contain are mandatory  fields in a `POST` reques
 }
 ```
 yields
-```
+```json
 {
     "uid": "dcb9545a-d169-40b3-9e9e-5eca8cd4b0c2",
     "user_id": null,
@@ -49,7 +49,7 @@ yields
 
 ### `GET` Request
 This provides all notifications to different users in the database.
-```
+```json
 [
   {
     "uid": "c4894d0c-fa23-47b1-b55c-aa743ac8e236",
@@ -77,7 +77,7 @@ This provides all notifications to different users in the database.
   ```
   ### `POST` Request
   To add new notifcations. Ensure that the username is the same with the one in the DB. 
-```
+```json
 {
   "product_id": "19",
   "username": "Bobchinsky",  

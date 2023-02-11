@@ -87,4 +87,4 @@ This provides all notifications to different users in the database.
 }
 ```
 ### `PUT` request
-Only `uid` object is posted during request. This prompts `seen` object to be changed to `true` for the associated notification. This can be provisioned to distinguish 'viewed' or 'read' notifications from 'unviewed' or 'unread' notifications.   
+Only `uid` object is posted during request. This prompts `seen` object to be changed to `true` for the associated notification in the DB. This can be provisioned to distinguish 'viewed' or 'read' notifications from 'unviewed' or 'unread' notifications.   

@@ -22,7 +22,7 @@ All items have some of the following properties, with required properties in bol
 | created_at         | Date the notification was created   |
 
 ## Example
-Posting the below snippet which contain are mandatory  fields in a `POST` request
+Posting the below snippet which are mandatory  fields in a `POST` request
 ```json
 {
   "product_id": "99",

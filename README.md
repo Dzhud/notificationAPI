@@ -4,7 +4,7 @@
 This API allows developers from different teams and products to target users for service notifications that can be integrated to the UX LivingLab browser extension. Developers from other products/teams can also utilize via `POST` request to target specific users. It has a single endpoint that takes `GET`, `POST`, and `PUT` http requests.
 
 ## Endpoint
-http://100092.pythonanywhere.com/api/get-product/
+http://100092.pythonanywhere.com/api/get-notification/
 
 ## Items
 All items have some of the following properties, with required properties in bold.
